@@ -1,4 +1,4 @@
-# shortcut_manager
+
 ## Presentation
 <p>This is a shortcut manager in commandline to manage different shortcuts. A shortcut can open several webpages in one times with the browser you want.</p>
 
