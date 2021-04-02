@@ -47,7 +47,7 @@ alter           modify a shortcut and file / add a new link
     [index]         index of the link to modify
     [option]        delete or replace the link
 copy            copy a shortcut
-create          create a file with the designated shortcut
+build           build a file with the designated shortcut
 delete [element]    delete the designated shortcut/file
 exit            exit the manager
 help            this help menu
@@ -87,7 +87,7 @@ show            show all the shortcut's name
                 print(f"file {name} deleted")
             else:
                 print(f"{element} is not available")
-        elif command[0] == "create":
+        elif command[0] == "build":
             name = input("name of the shortcut : ") if len(command) == 1 else command[1]
             book.create(name)
 
